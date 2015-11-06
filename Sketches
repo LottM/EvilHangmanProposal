@@ -1,0 +1,25 @@
+* Guesses left: 3
+* Letters you've guessed: 0
+* The word: -------
+
+Letter A
+  * Nope, that one is not included!
+  * Guesses left: 2
+  * Letters you've guessed: A
+  * The word: -------
+
+Letter E
+  * Yes, that one is indeed part of the word/
+  * Guesses left: 1
+  * Letters you've guessed: A E
+  * The word: ------E
+
+Letter A
+  * Oops, you've already tried that letter! Try again.
+  * Guesses left: 1
+  * Letters you've guessed: A E
+  * The word: ------E
+
+Letter P
+  * Sorry, you failed! Better luck next time.
+  
