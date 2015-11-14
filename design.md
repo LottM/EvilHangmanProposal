@@ -19,7 +19,7 @@
 
 
 ###NewGameViewController
-    IBOutlet weak var guessedWord: UILabel
+    @IBOutlet weak var guessedWord: UILabel
 
     var labelGuessedWord = String()
     override func viewDidLoad() {
