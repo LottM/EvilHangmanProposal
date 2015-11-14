@@ -1,6 +1,6 @@
 #Proposal:
 
-###HighscoreViewController
+###HighscoreViewController/HistoryViewController
     class highscore {
       var playerName: String?
       var guessesNeededToWin: Integer?
@@ -19,6 +19,15 @@
 
 
 ###NewGameViewController
+    // use NSUserDefaults if UITextfields are empty
+    if displayWordLength is empty {
+        NSUserDefaults: registerDefaultsWordLength
+    }
+    
+    if displayTotalAmountGuesses is empty {
+        NSUserDefaults: registerDefaultsTotalAmountGuesses
+    }
+    
     @IBOutlet weak var guessedWord: UILabel
 
     var labelGuessedWord = String()
@@ -47,9 +56,11 @@
     }
 
 ###SettingsViewController
-    @UITextfield: wordLength (integer?)
-    @UITextfield: totalAmountGuesses (integer?)
-    @UISwitch: evilMode
+    @UISlider(named: "wordLength") 
+    @UILabel(named: "displayWordLength")
+    @UISlider(named: "totalAmountGuesses")
+    @UILabel(named: "displayTotalAmountGuesses")
+    @UISwitch: evilGameplay/goodGameplay 
 
 ###Classes
     dataHighscore = [playerName, guessedNeededToWin]
