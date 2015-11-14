@@ -2,15 +2,24 @@
 This is a proposal for the second assignment: Evil Hangman, in which the computer changes the word to be guessed when possible.
 
 ### Bulleted list of features
-* dictionary for words.plist
-* UILabels displaying amount of guesses, guessed letters and open letter positions
-* UITextField for prompting the user for input, thereby only accepting alphabetical characters
-* for loop iterating over values in dictionary comparing them to users input
-* UITabBarController for tabs below (settings, new game)
-* UIImage for logo
-* UISlider for length of words, maximum number of guesses 
-* UISwitch for evilness
-* UITabBarController for highscores
+* ResumeGameViewController
+    * dictionary for words.plist
+    * UILabels displaying amount of guesses, guessed letters and open letter positions
+    * UIButtons for all the letters so the user only needs to push the button and immediately sees if the letter is in the word (then it will be green) or not (it will appear red)
+    * for loop iterating over values in dictionary comparing them to users input
+    * UIButton for menu in the left upper corner of the screen
+* MenuViewController
+    * UIImage for logo Hangman
+    * UIButton for segue to ResumeGameViewController
+    * UIButton for segue to NewGameViewController
+    * UIButton for segue to HighscoreViewController
+    * UIButton for segue to SettingsViewController
+* SettingsViewController
+    * UITextfield prompts the user for length of words
+    * UITextfield prompts the user for maximum number of incorrect guesses 
+    * UISwitch for evilness
+* HighscoreViewController
+    * UITableView for table with playerName and guessesNeededToWin 
 
 ### Short pseudocode thoughts
     // Include words.plist
