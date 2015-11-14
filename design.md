@@ -52,7 +52,6 @@ else {
 UITextfield: wordLength (integer?)
 UITextfield: totalAmountGuesses (integer?)
 UISwitch: evilMode
-![GitHub Logo] (http://s19.postimg.org/acpocl3mb/Settings_View_Controller.jpg)
 
 ###Classes
 dataHighscore = [playerName, guessedNeededToWin]
