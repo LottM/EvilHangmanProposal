@@ -16,7 +16,7 @@ class highscore {
     return " ".join(dataHighscore)
   }
 }
-
+![GitHub Logo] (http://s19.postimg.org/ldkthlvv7/Highscore_View_Controller.jpg)
 
 ###NewGameViewController
 IBOutlet weak var guessedWord: UILabel
@@ -52,6 +52,7 @@ else {
 UITextfield: wordLength (integer?)
 UITextfield: totalAmountGuesses (integer?)
 UISwitch: evilMode
+![GitHubLogo] (http://s19.postimg.org/acpocl3mb/Settings_View_Controller.jpg)
 
 ###Classes
 dataHighscore = [playerName, guessedNeededToWin]
