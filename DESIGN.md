@@ -69,6 +69,7 @@
 
 ###Classes
     dataHighscore = [playerName, guessedNeededToWin]
+    History.plist = dataHighscore
     dataResumeGame = [playerName, guessedLetters, guessesLeft, displayGuessedLettersInWord, wordLength, totalAmountGuesses, evilMode]
     dataNewGame = [playerName, wordLength, totalAmountGuesses, evilMode]
     dataSettings = [wordLength, totalAmountGuesses, evilMode]
