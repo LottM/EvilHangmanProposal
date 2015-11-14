@@ -15,9 +15,9 @@ This is a proposal for the second assignment: Evil Hangman, in which the compute
     * UIButton for segue to HighscoreViewController
     * UIButton for segue to SettingsViewController
 * SettingsViewController
-    * UITextfield prompts the user for length of words
-    * UITextfield prompts the user for maximum number of incorrect guesses 
-    * UISwitch for evilness
+    * UISlider prompts the user for length of words
+    * UISlider prompts the user for maximum number of incorrect guesses 
+    * UISwitch for EvilGameplay or GoodGameplay
     * UIButton for segue to menu in the left upper corner of the screen
 * HighscoreViewController
     * UITableView for table with playerName and guessesNeededToWin
