@@ -1,6 +1,6 @@
 #Proposal:
 
-##HIGHSCOREVIEWCONTROLLER
+###HighscoreViewController
 class highscore {
   var playerName: String?
   var guessesNeededToWin: Integer?
@@ -18,7 +18,7 @@ class highscore {
 }
 
 
-##NEWGAMEVIEWCONTROLLER
+###NewGameViewController
 IBOutlet weak var guessedWord: UILabel
 
 var labelGuessedWord = String()
@@ -47,13 +47,13 @@ else {
 }
 
 
-##SETTINGSVIEWCONTROLLER
+###SettingsViewController
 UITextfield: wordLength (integer?)
 UITextfield: totalAmountGuesses (integer?)
 UISwitch: evilMode
 
 
-##CLASSES
+###Classes
 dataHighscore = [playerName, guessedNeededToWin]
 dataResumeGame = [playerName, guessedLetters, guessesLeft, displayGuessedLettersInWord, wordLength, totalAmountGuesses, evilMode]
 dataNewGame = [playerName, wordLength, totalAmountGuesses, evilMode]
