@@ -72,6 +72,9 @@ dataSettings = [wordLength, totalAmountGuesses, evilMode]
 #####NewGameViewController
 ![GitHub Logo] (http://s19.postimg.org/lnsc0yahf/New_Game_View_Controller.jpg)
 
+#####ResumeGameViewController
+![GitHub Logo] (http://s19.postimg.org/8ap6yc5n7/Resume_Game_Viw_Controller.jpg)
+
 
 
 
