@@ -13,23 +13,23 @@ This is a proposal for the second assignment: Evil Hangman, in which the compute
 * UITabBarController for highscores
 
 ### Short pseudocode thoughts
-Include words.plist
+    Include words.plist
 
-Display guesses, guessed letters and open letters
-Get input user via UITextField
-if !isalpha(input):
-  print: Try again! That wasn't an alphabetical letter.
+    // Display guesses, guessed letters and open letters
+    // Get input user via UITextField
+    if !isalpha(input):
+      print: Try again! That wasn't an alphabetical letter.
 
-do: 
-  if (wordsWithLetter > wordsWithoutLetter):
-    newList = wordsWithLetter
-  else:
-    print: Too bad! Guess again.
-while (guessed != true)
+    do: 
+      if (wordsWithLetter > wordsWithoutLetter):
+        newList = wordsWithLetter
+      else:
+        print: Too bad! Guess again.
+    while (guessed != true)
 
-if (guessed == true):
-  print: Unbelievable! You won! Congratulations!
-  return 0
-else:
-  print: Too bad, you've lost!
-  return 0
+    if (guessed == true):
+      print: Unbelievable! You won! Congratulations!
+      return 0
+    else:
+      print: Too bad, you've lost!
+      return 0
