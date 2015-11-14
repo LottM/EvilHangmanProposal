@@ -45,6 +45,7 @@ if letterIsGuessedRight() == True {
 else {
   func colorLetterRed()
 }
+![GitHub Logo] (http://s19.postimg.org/lnsc0yahf/New_Game_View_Controller.jpg)
 
 
 ###SettingsViewController
