@@ -78,7 +78,7 @@
     * dictionary for words.plist
     * UILabels displaying amount of guesses, guessed letters and open letter positions
     * UIButtons for all the letters so the user only needs to push the button and immediately sees if the letter is in the word (then it will be green) or not (it will appear red)
-    * UIButton for segue to menu in the left upper corner of the screen
+    * UIButton for segue to MenuViewController in the left upper corner of the screen
 * MenuViewController
     * UIImage for logo Hangman
     * UIButton for segue to ResumeGameViewController
@@ -91,10 +91,10 @@
     * UISlider prompts the user for maximum number of incorrect guesses (action)
     * UITextfield displays the input of the user for the maximum number of incorrect guesses
     * UISwitch for evilness (action)
-    * UIButton for segue to menu in the left upper corner of the screen
+    * UIButton for segue to MenuViewController in the left upper corner of the screen
 * HighscoreViewController
     * UITableView for table with playerName and guessesNeededToWin
-    * UIButton for segue to menu in the left upper corner of the screen
+    * UIButton for segue to MenuViewController in the left upper corner of the screen
 
 #####Model classes
 ![GitHub Logo] (http://s19.postimg.org/9np9j6wlv/Model_View_Controller.png)
