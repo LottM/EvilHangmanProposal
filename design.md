@@ -32,12 +32,25 @@ func loadWordToBeGuessed()
 func loadDrawingHangman()
 func loadTotalAmountGuessesLeft()
 
+if evilMode(sender:UISwitch) = on {
+  funcDictionaryEvilMode()
+}
+else {
+  funcDictionaryNonEvilMode()
+}
+
 if letterIsGuessedRight() == True {
   func colorLetterGreen()
 }
 else {
   func colorLetterRed()
 }
+
+
+SETTINGSVIEWCONTROLLER
+UITextfield: wordLength (integer?)
+UITextfield: totalAmountGuesses (integer?)
+UISwitch: evilMode
 
 
 CLASSES
