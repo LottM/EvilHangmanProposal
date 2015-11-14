@@ -16,7 +16,7 @@ class highscore {
     return " ".join(dataHighscore)
   }
 }
-![GitHub Logo] (http://s19.postimg.org/ldkthlvv7/Highscore_View_Controller.jpg)
+
 
 ###NewGameViewController
 IBOutlet weak var guessedWord: UILabel
@@ -45,14 +45,11 @@ if letterIsGuessedRight() == True {
 else {
   func colorLetterRed()
 }
-![GitHub Logo] (http://s19.postimg.org/lnsc0yahf/New_Game_View_Controller.jpg)
-
 
 ###SettingsViewController
 UITextfield: wordLength (integer?)
 UITextfield: totalAmountGuesses (integer?)
 UISwitch: evilMode
-![GitHubLogo] (http://s19.postimg.org/acpocl3mb/Settings_View_Controller.jpg)
 
 ###Classes
 dataHighscore = [playerName, guessedNeededToWin]
@@ -60,7 +57,17 @@ dataResumeGame = [playerName, guessedLetters, guessesLeft, displayGuessedLetters
 dataNewGame = [playerName, wordLength, totalAmountGuesses, evilMode]
 dataSettings = [wordLength, totalAmountGuesses, evilMode]
 
+#####Model classes
 ![GitHub Logo] (http://s19.postimg.org/5nvfsstcj/Model_View_Controller.png)
+
+#####HighscoreViewController
+![GitHub Logo] (http://s19.postimg.org/ldkthlvv7/Highscore_View_Controller.jpg)
+
+#####SettingsViewController
+![GitHubLogo] (http://s19.postimg.org/acpocl3mb/Settings_View_Controller.jpg)
+
+#####NewGameViewController
+![GitHub Logo] (http://s19.postimg.org/lnsc0yahf/New_Game_View_Controller.jpg)
 
 
 
