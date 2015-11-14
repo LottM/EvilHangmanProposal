@@ -19,32 +19,32 @@
 
 
 ###NewGameViewController
-IBOutlet weak var guessedWord: UILabel
+    IBOutlet weak var guessedWord: UILabel
 
-var labelGuessedWord = String()
-override func viewDidLoad() {
-  super.viewDidLoad()
-  guessedWord = labelGuessedWord.text
-}
+    var labelGuessedWord = String()
+    override func viewDidLoad() {
+      super.viewDidLoad()
+      guessedWord = labelGuessedWord.text
+    }
 
-func loadKeyboard()
-func loadWordToBeGuessed()
-func loadDrawingHangman()
-func loadTotalAmountGuessesLeft()
+    func loadKeyboard()
+    func loadWordToBeGuessed()
+    func loadDrawingHangman()
+    func loadTotalAmountGuessesLeft()
 
-if evilMode(sender:UISwitch) = on {
-  funcDictionaryEvilMode()
-}
-else {
-  funcDictionaryNonEvilMode()
-}
+    if evilMode(sender:UISwitch) = on {
+      funcDictionaryEvilMode()
+    }
+    else {
+      funcDictionaryNonEvilMode()
+    }
 
-if letterIsGuessedRight() == True {
-  func colorLetterGreen()
-}
-else {
-  func colorLetterRed()
-}
+    if letterIsGuessedRight() == True {
+      func colorLetterGreen()
+    }
+    else {
+      func colorLetterRed()
+    }
 
 ###SettingsViewController
 UITextfield: wordLength (integer?)
