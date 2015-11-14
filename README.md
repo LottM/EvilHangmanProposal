@@ -1,7 +1,7 @@
 # EvilHangmanProposal
 This is a proposal for the second assignment: Evil Hangman, in which the computer changes the word to be guessed when possible.
 
-BULLETED LIST OF FEATURES
+### Bulleted list of features
 * dictionary for words.plist
 * UILabels displaying amount of guesses, guessed letters and open letter positions
 * UITextField for prompting the user for input, thereby only accepting alphabetical characters
@@ -12,7 +12,7 @@ BULLETED LIST OF FEATURES
 * UISwitch for evilness
 * UITabBarController for highscores
 
-# SHORT PSEUDOCODE THOUGHTS
+### Short pseudocode thoughts
 Include words.plist
 
 Display guesses, guessed letters and open letters
