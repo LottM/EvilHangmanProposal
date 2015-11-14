@@ -16,6 +16,7 @@ This is a proposal for the second assignment: Evil Hangman, in which the compute
     // Include words.plist
     // Display guesses, guessed letters and open letters
     // Get input user via UITextField
+    
     if !isalpha(input):
       print: Try again! That wasn't an alphabetical letter.
 
