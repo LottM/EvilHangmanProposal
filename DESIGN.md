@@ -39,7 +39,9 @@
       guessedWord = labelGuessedWord.text
     }
 
-    func loadKeyboard()
+    func loadKeyboard() {
+        textField:shouldChangeCharactersInRange:replacementString
+    }
     func loadWordToBeGuessed()
     func loadDrawingHangman()
     func loadTotalAmountGuessesLeft()
