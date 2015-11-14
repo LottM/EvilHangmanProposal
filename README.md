@@ -13,8 +13,7 @@ This is a proposal for the second assignment: Evil Hangman, in which the compute
 * UITabBarController for highscores
 
 ### Short pseudocode thoughts
-    Include words.plist
-
+    // Include words.plist
     // Display guesses, guessed letters and open letters
     // Get input user via UITextField
     if !isalpha(input):
