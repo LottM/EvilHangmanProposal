@@ -59,5 +59,8 @@ dataResumeGame = [playerName, guessedLetters, guessesLeft, displayGuessedLetters
 dataNewGame = [playerName, wordLength, totalAmountGuesses, evilMode]
 dataSettings = [wordLength, totalAmountGuesses, evilMode]
 
+![GitHub Logo] (http://s19.postimg.org/5nvfsstcj/Model_View_Controller.png)
+
+
 
 
