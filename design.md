@@ -32,6 +32,13 @@ func loadWordToBeGuessed()
 func loadDrawingHangman()
 func loadTotalAmountGuessesLeft()
 
+if letterIsGuessedRight() == True {
+  func colorLetterGreen()
+}
+else {
+  func colorLetterRed()
+}
+
 
 CLASSES
 dataHighscore = [playerName, guessedNeededToWin]
