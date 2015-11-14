@@ -1,21 +1,21 @@
 #Proposal:
 
 ###HighscoreViewController
-class highscore {
-  var playerName: String?
-  var guessesNeededToWin: Integer?
+    class highscore {
+      var playerName: String?
+      var guessesNeededToWin: Integer?
   
-  func highscoreData() {
-    var dataHighscore = []
-    if let playerName = self.playerName {
-      dataHighscore += [playerName]
+      func highscoreData() {
+        var dataHighscore = []
+        if let playerName = self.playerName {
+          dataHighscore += [playerName]
+        }
+        if let guessesNeededToWin = self.guessesNeededToWin {
+          dataHighscore += [guessesNeededToWin]
+        }
+        return " ".join(dataHighscore)
+      }
     }
-    if let guessesNeededToWin = self.guessesNeededToWin {
-      dataHighscore += [guessesNeededToWin]
-    }
-    return " ".join(dataHighscore)
-  }
-}
 
 
 ###NewGameViewController
