@@ -16,6 +16,9 @@
         return " ".join(dataHighscore)
       }
     }
+    
+    // implementation of displaying high scores
+    UIModalTransitionStyleCoverVertical    
 
 
 ###NewGameViewController
