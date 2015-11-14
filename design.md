@@ -47,15 +47,15 @@
     }
 
 ###SettingsViewController
-UITextfield: wordLength (integer?)
-UITextfield: totalAmountGuesses (integer?)
-UISwitch: evilMode
+    @UITextfield: wordLength (integer?)
+    @UITextfield: totalAmountGuesses (integer?)
+    @UISwitch: evilMode
 
 ###Classes
-dataHighscore = [playerName, guessedNeededToWin]
-dataResumeGame = [playerName, guessedLetters, guessesLeft, displayGuessedLettersInWord, wordLength, totalAmountGuesses, evilMode]
-dataNewGame = [playerName, wordLength, totalAmountGuesses, evilMode]
-dataSettings = [wordLength, totalAmountGuesses, evilMode]
+    dataHighscore = [playerName, guessedNeededToWin]
+    dataResumeGame = [playerName, guessedLetters, guessesLeft, displayGuessedLettersInWord, wordLength, totalAmountGuesses, evilMode]
+    dataNewGame = [playerName, wordLength, totalAmountGuesses, evilMode]
+    dataSettings = [wordLength, totalAmountGuesses, evilMode]
 
 #####Model classes
 ![GitHub Logo] (http://s19.postimg.org/5nvfsstcj/Model_View_Controller.png)
