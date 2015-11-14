@@ -1,7 +1,7 @@
 # EvilHangmanProposal
 This is a proposal for the second assignment: Evil Hangman, in which the computer changes the word to be guessed when possible.
 
-### Bulleted list of features
+#### Bulleted list of features
 * ResumeGameViewController
     * dictionary for words.plist
     * UILabels displaying amount of guesses, guessed letters and open letter positions
@@ -23,7 +23,7 @@ This is a proposal for the second assignment: Evil Hangman, in which the compute
     * UITableView for table with playerName and guessesNeededToWin
     * UIButton for segue to menu in the left upper corner of the screen
 
-### Short pseudocode thoughts
+#### Short pseudocode thoughts
     // Include words.plist
     // Display guesses, guessed letters and open letters
     // Get input user via UITextField
