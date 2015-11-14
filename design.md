@@ -58,7 +58,7 @@
     dataSettings = [wordLength, totalAmountGuesses, evilMode]
 
 #####Model classes
-![GitHub Logo] (http://s19.postimg.org/5nvfsstcj/Model_View_Controller.png)
+![GitHub Logo] (http://s19.postimg.org/9np9j6wlv/Model_View_Controller.png)
 
 #####MenuViewController
 ![GitHub Logo] (http://s19.postimg.org/cl3utxaqb/Menu_View_Controller.jpg)
