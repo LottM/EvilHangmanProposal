@@ -1,5 +1,5 @@
 # EvilHangmanProposal
-This is a proposal for the second assignment: Evil Hangman, in which the computer changes the word to be guessed when possible.
+This is a proposal for the final assignment: Evil Hangman, in which the computer changes the word to be guessed when possible.
 
 #### Bulleted list of features
 * ResumeGameViewController
